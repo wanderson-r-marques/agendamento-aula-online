@@ -1,5 +1,6 @@
 <?php
 require 'valida.php';
+$dataHj = date('Y-m-d H:i:s');
 ?>
 <!DOCTYPE html>
 <html>
@@ -67,7 +68,8 @@ require 'valida.php';
                 m.`nome`
                 FROM
                 `agendamentos` AS a
-                JOIN `monitores` AS m ON a.`id_monitor` = m.`id`";
+                JOIN `monitores` AS m ON a.`id_monitor` = m.`id`
+                WHERE a.`data_fim` >='$dataHj'";
                 $smtp = $con->prepare($query);
                 $smtp->execute();
                 $rows = $smtp->fetchAll(PDO::FETCH_OBJ);
@@ -132,7 +134,7 @@ require 'valida.php';
                 FROM `agendamento_aluno` aa
                 JOIN agendamentos a ON aa.`id_agendamento` = a.`id`
                 JOIN `monitores` m ON a.`id_monitor` = m.`id`
-              WHERE id_agendamento=$row->id AND id_aluno=$id_aluno";
+              WHERE id_aluno=$id_aluno AND a.`data_fim` >='$dataHj'";
                 $smtp = $con->prepare($query);
                 $smtp->execute();
                 $rows = $smtp->fetchAll(PDO::FETCH_OBJ);

@@ -3,7 +3,7 @@ require '../valida.php';
 if(isset($_POST)):
     $idAluno = $_POST['idAluno'];
     $idAgenda = $_POST['idAgenda'];
-    $query = "INSERT INTO `infor407_patriciacylene`.`agendamento_aluno` (        
+    $query = "INSERT INTO `agendamento_aluno` (        
         `id_aluno`,
         `id_agendamento`
       )
