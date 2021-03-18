@@ -23,8 +23,7 @@ $dataHj = date('Y-m-d H:i:s');
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbar16">
-        <ul class="navbar-nav ml-auto">
-          
+        <ul class="navbar-nav ml-auto">          
           <!-- <li class="nav-item"> <a class="btn navbar-btn ml-md-2 btn-light text-dark" href="#">FAQ</a> </li> -->
         </ul> <a href="logout.php" class="btn navbar-btn ml-md-2 btn-danger text-white">Sair</a>
       </div>
@@ -37,79 +36,9 @@ $dataHj = date('Y-m-d H:i:s');
           <h2 class="text-center pb-4 text-success"><b><?= $_SESSION['nome'] ?></b></h2>
         </div>
       </div>
+      
+
       <div class="row">
-        <div class="col-md-12">
-          <h3 class="">Agendamento da Monotoria de Redação<span class="badge badge-light"> cadastro</span></h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="table-responsive">
-            <table class="table table-bordered ">
-              <thead class="thead-dark">
-                <tr>
-                  <th>Data</th>
-                  <th>Dia/Hora</th>
-                  <th>Monitor</th>
-                </tr>
-              </thead>
-              <tbody>
-              <?php 
-                $query = "SELECT
-                a.`id`,
-                substring(a.`descricao`,1,40) as descricao,
-                a.`id_monitor`,
-                a.`data_inicio`,
-                a.`data_fim`,
-                a.`qtd_alunos`,
-                a.`link`,
-                m.`nome`
-                FROM
-                `agendamentos` AS a
-                JOIN `monitores` AS m ON a.`id_monitor` = m.`id`
-                WHERE a.`data_fim` >='$dataHj'";
-                $smtp = $con->prepare($query);
-                $smtp->execute();
-                $rows = $smtp->fetchAll(PDO::FETCH_OBJ);
-
-                foreach($rows as $row):
-                  
-                  $query1 = "SELECT * FROM agendamento_aluno WHERE id_agendamento=$row->id";
-                  $smtp1 = $con->prepare($query1);
-                  $smtp1->execute();
-                  $qtd_agendamentos = $smtp1->rowCount();
-
-                  if($qtd_agendamentos < $row->qtd_alunos):
-                  
-                    $query2 = "SELECT
-                      `id`
-                    FROM
-                      `agendamento_aluno`
-                    WHERE id_agendamento=$row->id AND id_aluno=$id_aluno";
-                    $smtp2 = $con->prepare($query2);
-                    $smtp2->execute();
-
-                    if(!$smtp2->rowCount()):               
-              ?>
-                <tr>                  
-                  
-                  <td><?= date('d/m/Y', strtotime($row->data_inicio)); ?></td>
-                  <td><?= $row->descricao ?></td>
-                  <td><?= $row->nome ?></td>                  
-                  <td><input type="checkbox" name="inputAgenda" wm-agendar wm-idAgenda="<?= $row->id ?>" wm-idAluno="<?= $_SESSION['id'] ?>"></td>
-                </tr>
-                <?php 
-                    endif;
-                  endif;
-                endforeach;
-                ?>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-
-      <div class="row pt-4">
         <div class="col-md-12">
           <h3 class="">Agendamento <span class="badge badge-success"> confirmado</span></h3>
         </div>
@@ -132,7 +61,7 @@ $dataHj = date('Y-m-d H:i:s');
                 FROM `agendamento_aluno` aa
                 JOIN agendamentos a ON aa.`id_agendamento` = a.`id`
                 JOIN `monitores` m ON a.`id_monitor` = m.`id`
-              WHERE id_aluno=$id_aluno AND a.`data_fim` >='$dataHj'";
+              WHERE m.id=$id_monitor AND a.`data_fim` >='$dataHj'";
                 $smtp = $con->prepare($query);
                 $smtp->execute();
                 $rows = $smtp->fetchAll(PDO::FETCH_OBJ);
