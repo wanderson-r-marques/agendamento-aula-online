@@ -33,6 +33,11 @@ require 'valida.php';
   </nav>
   <div class="py-5">
     <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center pb-4 text-success"><b><?= $_SESSION['nome'] ?></b></h2>
+        </div>
+      </div>
       <div class="row">
         <div class="col-md-12">
           <h3 class="">Agendamento da Monotoria de Redação<span class="badge badge-light"> cadastro</span></h3>
