@@ -1,0 +1,867 @@
+[16-Mar-2021 10:28:12 America/Fortaleza] PHP Parse error:  syntax error, unexpected '{' in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 3
+[16-Mar-2021 10:29:23 America/Fortaleza] PHP Parse error:  syntax error, unexpected '{' in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 3
+[16-Mar-2021 10:29:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:8
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 8
+[16-Mar-2021 10:43:45 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:11
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 11
+[16-Mar-2021 10:52:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 12
+[16-Mar-2021 10:53:26 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 12
+[16-Mar-2021 10:54:02 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 12
+[16-Mar-2021 13:56:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 10:56:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/login.php(7): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 13:58:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 10:58:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/login.php(7): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 13:58:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 10:58:53 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/login.php(7): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 14:00:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 11:00:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/login.php(7): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 14:03:03 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 11:03:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/login.php(7): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 14:05:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 11:05:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/login.php(7): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 17:39:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 14:39:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 17:41:14 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 14:41:14 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:01:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:01:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 15:09:36 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:09:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:09:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:09:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:11:11 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:11:11 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:11:35 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:11:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:11:51 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:11:51 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:12:03 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:12:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:12:31 America/Fortaleza] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Mar-2021 15:12:31 America/Fortaleza] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[16-Mar-2021 15:12:31 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:12:38 America/Fortaleza] PHP Warning:  Module 'imagick' already loaded in Unknown on line 0
+[16-Mar-2021 15:12:38 America/Fortaleza] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[16-Mar-2021 15:12:38 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:12:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:12:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:12:53 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:12:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:12:55 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 18:20:05 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:20:05 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:20:05 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 15:21:34 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:21:34 America/Fortaleza] PHP Fatal error:  Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 15:21:55 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:21:55 America/Fortaleza] PHP Fatal error:  Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 15:21:56 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:21:56 America/Fortaleza] PHP Fatal error:  Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:22:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:22:51 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:22:51 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:23:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:23:45 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:23:45 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 15:25:08 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:25:08 America/Fortaleza] PHP Fatal error:  Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 15:25:10 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:25:10 America/Fortaleza] PHP Fatal error:  Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 15:25:25 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:25:25 America/Fortaleza] PHP Fatal error:  Call to a member function setAttribute() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 17
+[16-Mar-2021 18:27:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:27:07 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:27:07 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 15:27:37 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:27:37 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:27:38 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:27:38 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:27:41 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:27:41 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:27:48 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:27:48 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:28:06 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20131226
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:28:06 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on boolean in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:28:18 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:28:18 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:28:19 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:28:19 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:28:20 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:28:20 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:30:11 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:30:11 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:30:31 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:30:31 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:30:53 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:30:53 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:33:06 America/Fortaleza] PHP Warning:  PHP Startup: SourceGuardian: Unable to initialize module
+Module compiled with module API=20160303
+PHP    compiled with module API=20121212
+These options need to match
+ in Unknown on line 0
+[16-Mar-2021 15:33:06 America/Fortaleza] PHP Fatal error:  Call to a member function fetchAll() on a non-object in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 18:37:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:37:35 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:37:35 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:37:36 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:37:36 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:37:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:37:57 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:37:57 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:37:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:38:22 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:38:22 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:38:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:38:23 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:38:23 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:38:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:38:24 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:38:24 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:38:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:38:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:38:53 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:38:53 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:39:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:39:01 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:39:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:39:09 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:39:09 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:39:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:39:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:39:18 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:39:18 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:39:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:39:20 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:39:20 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:39:22 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:39:22 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:39:22 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:39:23 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:39:23 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:39:23 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:39:24 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:39:24 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:39:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:42:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:42:30 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 18:43:00 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:43:00 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:43:00 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:43:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:43:02 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:43:02 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:43:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:43:04 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:43:04 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:43:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:43:32 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:43:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 18:48:05 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ixed.7.1.lin' (tried: /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin: undefined symbol: _zval_ptr_dtor), /opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so (/opt/php71/lib/php/extensions/no-debug-non-zts-20160303/ixed.7.1.lin.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Mar-2021 15:48:05 America/Fortaleza] PHP Deprecated:  Directive 'allow_url_include' is deprecated in Unknown on line 0
+[16-Mar-2021 15:48:05 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class 'PDO' not found in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:16
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(26): conectar()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 16
+[16-Mar-2021 15:50:43 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:50:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:50:48 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:50:48 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:51:57 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:51:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:52:18 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:52:50 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:53:46 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:53:46 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:54:01 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:54:33 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:55:00 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:55:00 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:57:16 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:57:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 31
+[16-Mar-2021 15:57:45 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:58:24 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 15:58:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 30
+[16-Mar-2021 16:05:35 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 16:06:31 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 16:06:31 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'infor407_patriciacylene.usuarios' doesn't exist in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php:29
+Stack trace:
+#0 /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/conexao.php on line 29
+[16-Mar-2021 16:08:25 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 19:32:13 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 19:32:51 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 20:58:04 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 20:58:08 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 20:58:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 12
+[16-Mar-2021 21:57:59 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 21:58:03 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 21:58:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 12
+[16-Mar-2021 22:05:36 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:05:39 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:05:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 12
+[16-Mar-2021 22:21:18 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:21:21 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:21:21 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 12
+[16-Mar-2021 22:21:49 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:21:49 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:12
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 12
+[16-Mar-2021 22:22:16 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:22:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 10
+[16-Mar-2021 22:22:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:22:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 10
+[16-Mar-2021 22:23:24 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:23:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:23:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:23:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:24:28 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:24:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:29:12 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:29:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:29:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:29:57 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:29:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:30:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:30:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:30:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:30:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:31:08 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:31:08 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:31:22 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:31:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:31:29 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:32:31 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:32:31 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:32:36 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:32:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:32:50 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:32:57 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:32:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:33:25 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:33:25 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:33:28 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:33:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:33:29 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:33:42 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:33:50 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:33:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:33:50 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:33:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:35:19 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:35:19 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:36:00 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:36:00 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:36:04 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:36:04 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:36:09 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:36:10 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:36:20 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:36:26 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:36:26 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:36:29 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:36:30 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:37:37 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:37:37 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:37:44 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:37:46 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:38:49 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:40:07 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:40:14 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:40:42 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:41:05 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:41:08 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:41:51 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:41:51 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:41:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:41:54 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:41:58 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:41:58 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:42:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:42:54 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:42:58 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:42:58 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:43:00 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:43:00 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:43:01 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:43:01 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home2/infor407/isolucoes.inf.br/patriciacylene/login.php on line 9
+[16-Mar-2021 22:43:31 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:43:34 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:43:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:44:25 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:44:25 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:44:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:44:30 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:44:35 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:44:36 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:44:36 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Mar-2021 22:44:37 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:36:31 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:36:37 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:36:37 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:43:29 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:43:29 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:43:33 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:43:33 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:43:33 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:44:32 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:44:32 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:48:46 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:49:35 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 08:54:59 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:00:22 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:00:57 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:01:15 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:01:15 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:65
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 65
+[17-Mar-2021 09:01:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:01:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:65
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 65
+[17-Mar-2021 09:01:55 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:15:09 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:15:50 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:35:05 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:35:09 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:35:11 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:35:14 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:35:14 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:43:40 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:46:40 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:47:36 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:47:49 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:49:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:50:25 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:55:12 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:55:37 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:55:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 09:56:53 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:00:20 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:01:07 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:01:51 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:01:55 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:02:21 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:03:15 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:03:29 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:04:03 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:05:06 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:06:35 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:06:35 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:07:07 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:07:39 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:08:23 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:09:09 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:09:11 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:10:24 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:11:00 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:14:43 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:15:07 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:16:16 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:16:17 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:18:05 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:18:22 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:19:38 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:19:42 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:20:03 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:22:21 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:22:50 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:26:09 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:26:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:26:43 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:26:56 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:43:33 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:43:34 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:43:39 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:43:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:43:44 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:43:45 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:46:16 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:48:44 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:49:38 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:50:50 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:50:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:66
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 66
+[17-Mar-2021 10:50:51 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:50:59 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:50:59 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:51:04 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 10:51:18 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:01:44 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:03:13 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:04:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:04:45 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:05:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:06:30 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:07:07 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:09:38 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:10:48 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:11:10 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:13:53 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:13:56 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:14:07 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:14:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:17:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:19:20 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:19:55 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:22:17 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:22:53 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:25:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:26:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:30:55 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:33:56 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:46:03 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:46:50 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:47:19 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:47:26 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:48:43 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:48:51 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:49:06 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:59:01 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:59:01 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:59:08 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:59:11 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:59:17 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:59:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 11:59:34 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:00:00 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:00:47 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:01:08 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:01:14 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:01:21 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:01:51 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:02:03 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:25:15 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:25:18 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:27:35 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:27:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:27:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:27:52 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:27:53 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:32:04 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:32:04 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:66
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 66
+[17-Mar-2021 12:32:44 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:32:50 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 12:32:50 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 13:35:24 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 13:35:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:66
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 66
+[17-Mar-2021 13:35:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 13:35:27 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:66
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 66
+[17-Mar-2021 18:51:33 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 18:51:39 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 18:51:39 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 18:59:31 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 18:59:52 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 19:02:16 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 19:03:07 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 19:03:35 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 19:04:03 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 19:04:21 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 19:04:50 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 19:59:32 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 19:59:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:65
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 65
+[17-Mar-2021 19:59:34 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 19:59:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:65
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 65
+[17-Mar-2021 19:59:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 19:59:41 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:65
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 65
+[17-Mar-2021 19:59:51 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 19:59:58 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 19:59:58 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 20:00:08 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 20:00:11 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 20:00:13 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 22:20:43 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 22:20:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:65
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 65
+[17-Mar-2021 22:20:46 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 22:20:46 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:65
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 65
+[17-Mar-2021 22:20:51 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 22:20:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 22:20:55 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:12:30 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:12:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:66
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 66
+[17-Mar-2021 23:13:30 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:13:30 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:66
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 66
+[17-Mar-2021 23:13:34 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:13:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php:66
+Stack trace:
+#0 {main}
+  thrown in /home2/infor407/isolucoes.inf.br/patriciacylene/painel.php on line 66
+[17-Mar-2021 23:13:37 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:13:37 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:14:04 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:14:04 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:15:24 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:15:24 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:16:21 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:16:25 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:16:26 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:16:47 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[17-Mar-2021 23:16:47 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[18-Mar-2021 08:28:33 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[18-Mar-2021 08:28:42 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[18-Mar-2021 08:28:42 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[18-Mar-2021 08:40:30 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0

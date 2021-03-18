@@ -1,0 +1,1 @@
+AddHandler application/x-httpd-ea-php74 .php
