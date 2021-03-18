@@ -73,13 +73,22 @@ require 'valida.php';
                 $rows = $smtp->fetchAll(PDO::FETCH_OBJ);
 
                 foreach($rows as $row):
+                  
+                  $query1 = "SELECT * FROM agendamento_aluno WHERE id_agendamento=$row->id";
+                  $smtp1 = $con->prepare($query1);
+                  $smtp1->execute();
+                  $qtd_agendamentos = $smtp1->rowCount();
+
+                  if($qtd_agendamentos < $row->qtd_alunos):
+                  
                     $query2 = "SELECT
-                    `id`
-                  FROM
-                    `agendamento_aluno`
-                  WHERE id_agendamento=$row->id AND id_aluno=$id_aluno";
-                  $smtp2 = $con->prepare($query2);
-                  $smtp2->execute();
+                      `id`
+                    FROM
+                      `agendamento_aluno`
+                    WHERE id_agendamento=$row->id AND id_aluno=$id_aluno";
+                    $smtp2 = $con->prepare($query2);
+                    $smtp2->execute();
+
                     if(!$smtp2->rowCount()):               
               ?>
                 <tr>                  
@@ -91,7 +100,8 @@ require 'valida.php';
                 </tr>
                 <?php 
                     endif;
-                  endforeach;
+                  endif;
+                endforeach;
                 ?>
               </tbody>
             </table>
@@ -110,6 +120,7 @@ require 'valida.php';
             <table class="table table-bordered ">
               <thead class="thead-light">
                 <tr>
+                  <th>Data</th>    
                   <th>Data/Hora</th>
                   <th>Monitor</th>
                   <th>Link</th>
@@ -128,10 +139,12 @@ require 'valida.php';
 
                 foreach($rows as $row):                                 
               ?>
-                <tr>                  
+                <tr>    
+                  <td><?= date('d/m/Y', strtotime($row->data_inicio)); ?></td>              
                   <td><?= $row->descricao ?></td>
                   <td><?= $row->monitor ?></td>
                   <td><a target="_blank" class="btn btn-warning" href="<?= $row->link ?>">Entrar</a></td>
+                  
                   <!-- <td>
                     <input type="checkbox" name="inputAgenda" wm-agendar wm-idAgenda="<?= $row->id ?>" wm-idAluno="<?= $_SESSION['id'] ?>">
                   </td> -->
