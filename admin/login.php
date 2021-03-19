@@ -12,7 +12,7 @@ if(isset($_POST['email'])){
         $_SESSION['email'] = $email;
         $_SESSION['id'] = $row->id;
         $_SESSION['nome'] = $row->nome;
-        $_SESSION['tipo'] = $row->tipo;
+        $_SESSION['tipo'] = $row->tipo_monitor;
         header('Location: painel.php');
     }else{
         echo "<script>alert('Esse e-mail não consta em nossa base de dados!'); window.location.href = 'index.php';</script>";

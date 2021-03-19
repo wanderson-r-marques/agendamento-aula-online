@@ -51,17 +51,29 @@ $dataHj = date('Y-m-d H:i:s');
                 <tr>
                   <th>Data</th>    
                   <th>Data/Hora</th>
+                  <th>Aluno</th>
                   <th>Monitor</th>
                   <th>Link</th>
                 </tr>
               </thead>
               <tbody>
               <?php 
-                $query = "SELECT a.`descricao`, a.`data_inicio`, a.`data_fim`, a.`link`, m.`nome` AS monitor
-                FROM `agendamento_aluno` aa
-                JOIN agendamentos a ON aa.`id_agendamento` = a.`id`
-                JOIN `monitores` m ON a.`id_monitor` = m.`id`
-              WHERE m.id=$id_monitor AND a.`data_fim` >='$dataHj'";
+
+                if($_SESSION['tipo'] != 1)
+                  $query = "SELECT al.nome AS aluno, a.`descricao`, a.`data_inicio`, a.`data_fim`, a.`link`, m.`nome` AS monitor
+                  FROM `agendamento_aluno` aa
+                  JOIN agendamentos a ON aa.`id_agendamento` = a.`id`
+                  JOIN `monitores` m ON a.`id_monitor` = m.`id`
+                  JOIN alunos al ON aa.id_aluno = al.id
+                  WHERE m.id=$id_monitor AND a.`data_fim` >='$dataHj'";
+                else 
+                  $query = "SELECT al.nome AS aluno, a.`descricao`, a.`data_inicio`, a.`data_fim`, a.`link`, m.`nome` AS monitor
+                  FROM `agendamento_aluno` aa
+                  JOIN agendamentos a ON aa.`id_agendamento` = a.`id`
+                  JOIN `monitores` m ON a.`id_monitor` = m.`id`
+                  JOIN alunos al ON aa.id_aluno = al.id
+                  WHERE a.`data_fim` >='$dataHj'";
+
                 $smtp = $con->prepare($query);
                 $smtp->execute();
                 $rows = $smtp->fetchAll(PDO::FETCH_OBJ);
@@ -71,6 +83,7 @@ $dataHj = date('Y-m-d H:i:s');
                 <tr>    
                   <td><?= date('d/m/Y', strtotime($row->data_inicio)); ?></td>              
                   <td><?= $row->descricao ?></td>
+                  <td><?= $row->aluno ?></td>
                   <td><?= $row->monitor ?></td>
                   <td><a target="_blank" class="btn btn-warning" href="<?= $row->link ?>">Entrar</a></td>
                   
