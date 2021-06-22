@@ -1,23 +1,27 @@
-<?php 
+<?php
 require '../valida.php';
-if(isset($_POST)):
-    $idAluno = $_POST['idAluno'];
-    $idAgenda = $_POST['idAgenda'];
-    $query = "INSERT INTO `agendamento_aluno` (        
+if (isset($_POST)) :
+  $idAluno = $_POST['idAluno'];
+  $idAgenda = $_POST['idAgenda'];
+  $idSemana = $_POST['idSemana'];
+  $query = "INSERT INTO `agendamento_aluno` (        
         `id_aluno`,
-        `id_agendamento`
+        `id_agendamento`,
+        `semana`
       )
       VALUES
         (         
           :idAluno,
-          :idAgenda          
+          :idAgenda,          
+          :idSemana          
         );
       ";
-      $smtp = $con->prepare($query);
-      $smtp->bindParam(':idAluno',$idAluno,PDO::PARAM_INT);
-      $smtp->bindParam(':idAgenda',$idAgenda,PDO::PARAM_INT);
-      if($smtp->execute())
-        echo json_encode('true');
-    else
-        echo json_encode('false');
+  $smtp = $con->prepare($query);
+  $smtp->bindParam(':idAluno', $idAluno, PDO::PARAM_INT);
+  $smtp->bindParam(':idAgenda', $idAgenda, PDO::PARAM_INT);
+  $smtp->bindParam(':idSemana', $idSemana, PDO::PARAM_INT);
+  if ($smtp->execute())
+    echo json_encode('true');
+  else
+    echo json_encode('false');
 endif;

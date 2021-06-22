@@ -14,7 +14,7 @@ $dataHj = date('Y-m-d H:i:s');
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body >
+<body>
   <nav class="navbar navbar-expand-md navbar-dark bg-primary">
     <div class="container"> <a class="navbar-brand" href="#">
         <i class="fa d-inline fa-lg fa-stop-circle"></i>
@@ -24,7 +24,7 @@ $dataHj = date('Y-m-d H:i:s');
       </button>
       <div class="collapse navbar-collapse" id="navbar16">
         <ul class="navbar-nav ml-auto">
-          
+
           <!-- <li class="nav-item"> <a class="btn navbar-btn ml-md-2 btn-light text-dark" href="#">FAQ</a> </li> -->
         </ul> <a href="logout.php" class="btn navbar-btn ml-md-2 btn-danger text-white">Sair</a>
       </div>
@@ -32,7 +32,7 @@ $dataHj = date('Y-m-d H:i:s');
   </nav>
   <div class="py-5">
     <div class="container">
-    <div class="row">
+      <div class="row">
         <div class="col-md-12">
           <h2 class="text-center pb-4 text-success"><b><?= $_SESSION['nome'] ?></b></h2>
         </div>
@@ -51,19 +51,21 @@ $dataHj = date('Y-m-d H:i:s');
                   <th>Data</th>
                   <th>Dia/Hora</th>
                   <th>Monitor</th>
+
                 </tr>
               </thead>
               <tbody>
-              <?php 
+                <?php
                 $query = "SELECT
                 a.`id`,
-                substring(a.`descricao`,1,40) as descricao,
+                substring(a.`descricao`,1,120) as descricao,
                 a.`id_monitor`,
                 a.`data_inicio`,
                 a.`data_fim`,
                 a.`qtd_alunos`,
                 a.`link`,
-                m.`nome`
+                m.`nome`,
+                a.`semana`
                 FROM
                 `agendamentos` AS a
                 JOIN `monitores` AS m ON a.`id_monitor` = m.`id`
@@ -72,15 +74,15 @@ $dataHj = date('Y-m-d H:i:s');
                 $smtp->execute();
                 $rows = $smtp->fetchAll(PDO::FETCH_OBJ);
 
-                foreach($rows as $row):
-                  
+                foreach ($rows as $row) :
+
                   $query1 = "SELECT * FROM agendamento_aluno WHERE id_agendamento=$row->id";
                   $smtp1 = $con->prepare($query1);
                   $smtp1->execute();
                   $qtd_agendamentos = $smtp1->rowCount();
 
-                  if($qtd_agendamentos < $row->qtd_alunos):
-                  
+                  if ($qtd_agendamentos < $row->qtd_alunos) :
+
                     $query2 = "SELECT
                       `id`
                     FROM
@@ -89,16 +91,17 @@ $dataHj = date('Y-m-d H:i:s');
                     $smtp2 = $con->prepare($query2);
                     $smtp2->execute();
 
-                    if(!$smtp2->rowCount()):               
-              ?>
-                <tr>                  
-                  
-                  <td><?= date('d/m/Y', strtotime($row->data_inicio)); ?></td>
-                  <td><?= $row->descricao ?></td>
-                  <td><?= $row->nome ?></td>                  
-                  <td><input type="checkbox" name="inputAgenda" wm-agendar wm-idAgenda="<?= $row->id ?>" wm-idAluno="<?= $_SESSION['id'] ?>"></td>
-                </tr>
-                <?php 
+                    if (!$smtp2->rowCount()) :
+                ?>
+                      <tr>
+
+                        <td><?= date('d/m/Y', strtotime($row->data_inicio)); ?></td>
+                        <td><?= $row->descricao ?></td>
+                        <td><?= $row->nome ?></td>
+
+                        <td><input type="checkbox" name="inputAgenda" wm-agendar wm-idAgenda="<?= $row->id ?>" wm-idAluno="<?= $_SESSION['id'] ?>" wm-idSemana="<?= $row->semana ?>"></td>
+                      </tr>
+                <?php
                     endif;
                   endif;
                 endforeach;
@@ -120,14 +123,14 @@ $dataHj = date('Y-m-d H:i:s');
             <table class="table table-bordered ">
               <thead class="thead-light">
                 <tr>
-                  <th>Data</th>    
+                  <th>Data</th>
                   <th>Data/Hora</th>
-                  <th>Monitor</th>
+                  <th>Monitor/Professor</th>
                   <th>Link</th>
                 </tr>
               </thead>
               <tbody>
-              <?php 
+                <?php
                 $query = "SELECT a.`descricao`, a.`data_inicio`, a.`data_fim`, a.`link`, m.`nome` AS monitor
                 FROM `agendamento_aluno` aa
                 JOIN agendamentos a ON aa.`id_agendamento` = a.`id`
@@ -137,20 +140,20 @@ $dataHj = date('Y-m-d H:i:s');
                 $smtp->execute();
                 $rows = $smtp->fetchAll(PDO::FETCH_OBJ);
 
-                foreach($rows as $row):                                 
-              ?>
-                <tr>    
-                  <td><?= date('d/m/Y', strtotime($row->data_inicio)); ?></td>              
-                  <td><?= $row->descricao ?></td>
-                  <td><?= $row->monitor ?></td>
-                  <td><a target="_blank" class="btn btn-warning" href="<?= $row->link ?>">Entrar</a></td>
-                  
-                  <!-- <td>
+                foreach ($rows as $row) :
+                ?>
+                  <tr>
+                    <td><?= date('d/m/Y', strtotime($row->data_inicio)); ?></td>
+                    <td><?= $row->descricao ?></td>
+                    <td><?= $row->monitor ?></td>
+                    <td><a target="_blank" class="btn btn-warning" href="<?= $row->link ?>">Entrar</a></td>
+
+                    <!-- <td>
                     <input type="checkbox" name="inputAgenda" wm-agendar wm-idAgenda="<?= $row->id ?>" wm-idAluno="<?= $_SESSION['id'] ?>">
                   </td> -->
-                </tr>
-                <?php                   
-                  endforeach;
+                  </tr>
+                <?php
+                endforeach;
                 ?>
               </tbody>
             </table>
